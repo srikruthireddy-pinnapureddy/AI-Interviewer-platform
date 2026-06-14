@@ -46,3 +46,13 @@ next-env.d.ts
 
 # Python virtual environment
 venv/
+.venv/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Generated backend data
+backend/outputs/
+backend/uploads/
